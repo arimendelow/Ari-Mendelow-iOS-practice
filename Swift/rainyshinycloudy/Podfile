@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'rainyshinycloudy' do
+  pod 'Alamofire', '~> 4.4'
+  use_frameworks!
+
+  # Pods for rainyshinycloudy
+
+  target 'rainyshinycloudyTests' do
+    pod 'Alamofire', '~> 4.4'
+  end
+
+end

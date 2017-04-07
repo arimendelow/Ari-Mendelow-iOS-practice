@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE5CCF51E75ABF0009D0A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CCF41E75ABF0009D0A19 /* AppDelegate.swift */; };
+		2CE5CCF71E75ABF0009D0A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CCF61E75ABF0009D0A19 /* ViewController.swift */; };
+		2CE5CCFA1E75ABF0009D0A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5CCF81E75ABF0009D0A19 /* Main.storyboard */; };
+		2CE5CCFC1E75ABF0009D0A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5CCFB1E75ABF0009D0A19 /* Assets.xcassets */; };
+		2CE5CCFF1E75ABF0009D0A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5CCFD1E75ABF0009D0A19 /* LaunchScreen.storyboard */; };
+		2CE5CD0A1E75ABF0009D0A19 /* ProgressBarFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CD091E75ABF0009D0A19 /* ProgressBarFunTests.swift */; };
+		2CE5CD151E75ABF0009D0A19 /* ProgressBarFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CD141E75ABF0009D0A19 /* ProgressBarFunUITests.swift */; };
+		2CE5CD261E75AC8C009D0A19 /* ProgressBarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CD251E75AC8C009D0A19 /* ProgressBarDraw.swift */; };
+		2CE5CD281E75ACC3009D0A19 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5CD271E75ACC3009D0A19 /* ProgressBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE5CD061E75ABF0009D0A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE5CCE91E75ABF0009D0A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE5CCF01E75ABF0009D0A19;
+			remoteInfo = ProgressBarFun;
+		};
+		2CE5CD111E75ABF0009D0A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE5CCE91E75ABF0009D0A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE5CCF01E75ABF0009D0A19;
+			remoteInfo = ProgressBarFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CE5CCF11E75ABF0009D0A19 /* ProgressBarFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5CCF41E75ABF0009D0A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CE5CCF61E75ABF0009D0A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CE5CCF91E75ABF0009D0A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CE5CCFB1E75ABF0009D0A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE5CCFE1E75ABF0009D0A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CE5CD001E75ABF0009D0A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE5CD051E75ABF0009D0A19 /* ProgressBarFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5CD091E75ABF0009D0A19 /* ProgressBarFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarFunTests.swift; sourceTree = "<group>"; };
+		2CE5CD0B1E75ABF0009D0A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE5CD101E75ABF0009D0A19 /* ProgressBarFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5CD141E75ABF0009D0A19 /* ProgressBarFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarFunUITests.swift; sourceTree = "<group>"; };
+		2CE5CD161E75ABF0009D0A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE5CD251E75AC8C009D0A19 /* ProgressBarDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarDraw.swift; sourceTree = "<group>"; };
+		2CE5CD271E75ACC3009D0A19 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE5CCEE1E75ABF0009D0A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD021E75ABF0009D0A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD0D1E75ABF0009D0A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE5CCE81E75ABF0009D0A19 = {
+			isa = PBXGroup;
+			children = (
+				2CE5CCF31E75ABF0009D0A19 /* ProgressBarFun */,
+				2CE5CD081E75ABF0009D0A19 /* ProgressBarFunTests */,
+				2CE5CD131E75ABF0009D0A19 /* ProgressBarFunUITests */,
+				2CE5CCF21E75ABF0009D0A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE5CCF21E75ABF0009D0A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CCF11E75ABF0009D0A19 /* ProgressBarFun.app */,
+				2CE5CD051E75ABF0009D0A19 /* ProgressBarFunTests.xctest */,
+				2CE5CD101E75ABF0009D0A19 /* ProgressBarFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE5CCF31E75ABF0009D0A19 /* ProgressBarFun */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CD231E75AC0B009D0A19 /* Model */,
+				2CE5CD241E75AC16009D0A19 /* View */,
+				2CE5CD221E75AC03009D0A19 /* Controller */,
+				2CE5CCF41E75ABF0009D0A19 /* AppDelegate.swift */,
+				2CE5CCF81E75ABF0009D0A19 /* Main.storyboard */,
+				2CE5CCFB1E75ABF0009D0A19 /* Assets.xcassets */,
+				2CE5CCFD1E75ABF0009D0A19 /* LaunchScreen.storyboard */,
+				2CE5CD001E75ABF0009D0A19 /* Info.plist */,
+			);
+			path = ProgressBarFun;
+			sourceTree = "<group>";
+		};
+		2CE5CD081E75ABF0009D0A19 /* ProgressBarFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CD091E75ABF0009D0A19 /* ProgressBarFunTests.swift */,
+				2CE5CD0B1E75ABF0009D0A19 /* Info.plist */,
+			);
+			path = ProgressBarFunTests;
+			sourceTree = "<group>";
+		};
+		2CE5CD131E75ABF0009D0A19 /* ProgressBarFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CD141E75ABF0009D0A19 /* ProgressBarFunUITests.swift */,
+				2CE5CD161E75ABF0009D0A19 /* Info.plist */,
+			);
+			path = ProgressBarFunUITests;
+			sourceTree = "<group>";
+		};
+		2CE5CD221E75AC03009D0A19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CCF61E75ABF0009D0A19 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2CE5CD231E75AC0B009D0A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CE5CD241E75AC16009D0A19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CE5CD251E75AC8C009D0A19 /* ProgressBarDraw.swift */,
+				2CE5CD271E75ACC3009D0A19 /* ProgressBarView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE5CCF01E75ABF0009D0A19 /* ProgressBarFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE5CD191E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFun" */;
+			buildPhases = (
+				2CE5CCED1E75ABF0009D0A19 /* Sources */,
+				2CE5CCEE1E75ABF0009D0A19 /* Frameworks */,
+				2CE5CCEF1E75ABF0009D0A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressBarFun;
+			productName = ProgressBarFun;
+			productReference = 2CE5CCF11E75ABF0009D0A19 /* ProgressBarFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE5CD041E75ABF0009D0A19 /* ProgressBarFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE5CD1C1E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFunTests" */;
+			buildPhases = (
+				2CE5CD011E75ABF0009D0A19 /* Sources */,
+				2CE5CD021E75ABF0009D0A19 /* Frameworks */,
+				2CE5CD031E75ABF0009D0A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE5CD071E75ABF0009D0A19 /* PBXTargetDependency */,
+			);
+			name = ProgressBarFunTests;
+			productName = ProgressBarFunTests;
+			productReference = 2CE5CD051E75ABF0009D0A19 /* ProgressBarFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CE5CD0F1E75ABF0009D0A19 /* ProgressBarFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE5CD1F1E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFunUITests" */;
+			buildPhases = (
+				2CE5CD0C1E75ABF0009D0A19 /* Sources */,
+				2CE5CD0D1E75ABF0009D0A19 /* Frameworks */,
+				2CE5CD0E1E75ABF0009D0A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE5CD121E75ABF0009D0A19 /* PBXTargetDependency */,
+			);
+			name = ProgressBarFunUITests;
+			productName = ProgressBarFunUITests;
+			productReference = 2CE5CD101E75ABF0009D0A19 /* ProgressBarFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE5CCE91E75ABF0009D0A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ari Mendelow";
+				TargetAttributes = {
+					2CE5CCF01E75ABF0009D0A19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2CE5CD041E75ABF0009D0A19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CE5CCF01E75ABF0009D0A19;
+					};
+					2CE5CD0F1E75ABF0009D0A19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CE5CCF01E75ABF0009D0A19;
+					};
+				};
+			};
+			buildConfigurationList = 2CE5CCEC1E75ABF0009D0A19 /* Build configuration list for PBXProject "ProgressBarFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE5CCE81E75ABF0009D0A19;
+			productRefGroup = 2CE5CCF21E75ABF0009D0A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE5CCF01E75ABF0009D0A19 /* ProgressBarFun */,
+				2CE5CD041E75ABF0009D0A19 /* ProgressBarFunTests */,
+				2CE5CD0F1E75ABF0009D0A19 /* ProgressBarFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE5CCEF1E75ABF0009D0A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5CCFF1E75ABF0009D0A19 /* LaunchScreen.storyboard in Resources */,
+				2CE5CCFC1E75ABF0009D0A19 /* Assets.xcassets in Resources */,
+				2CE5CCFA1E75ABF0009D0A19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD031E75ABF0009D0A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD0E1E75ABF0009D0A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE5CCED1E75ABF0009D0A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5CD261E75AC8C009D0A19 /* ProgressBarDraw.swift in Sources */,
+				2CE5CD281E75ACC3009D0A19 /* ProgressBarView.swift in Sources */,
+				2CE5CCF71E75ABF0009D0A19 /* ViewController.swift in Sources */,
+				2CE5CCF51E75ABF0009D0A19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD011E75ABF0009D0A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5CD0A1E75ABF0009D0A19 /* ProgressBarFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE5CD0C1E75ABF0009D0A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE5CD151E75ABF0009D0A19 /* ProgressBarFunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE5CD071E75ABF0009D0A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE5CCF01E75ABF0009D0A19 /* ProgressBarFun */;
+			targetProxy = 2CE5CD061E75ABF0009D0A19 /* PBXContainerItemProxy */;
+		};
+		2CE5CD121E75ABF0009D0A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE5CCF01E75ABF0009D0A19 /* ProgressBarFun */;
+			targetProxy = 2CE5CD111E75ABF0009D0A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CE5CCF81E75ABF0009D0A19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE5CCF91E75ABF0009D0A19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CE5CCFD1E75ABF0009D0A19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE5CCFE1E75ABF0009D0A19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE5CD171E75ABF0009D0A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE5CD181E75ABF0009D0A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE5CD1A1E75ABF0009D0A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgressBarFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CE5CD1B1E75ABF0009D0A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProgressBarFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2CE5CD1D1E75ABF0009D0A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProgressBarFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarFun.app/ProgressBarFun";
+			};
+			name = Debug;
+		};
+		2CE5CD1E1E75ABF0009D0A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProgressBarFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarFun.app/ProgressBarFun";
+			};
+			name = Release;
+		};
+		2CE5CD201E75ABF0009D0A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProgressBarFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProgressBarFun;
+			};
+			name = Debug;
+		};
+		2CE5CD211E75ABF0009D0A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProgressBarFunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimendelow.ProgressBarFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProgressBarFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE5CCEC1E75ABF0009D0A19 /* Build configuration list for PBXProject "ProgressBarFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5CD171E75ABF0009D0A19 /* Debug */,
+				2CE5CD181E75ABF0009D0A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE5CD191E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5CD1A1E75ABF0009D0A19 /* Debug */,
+				2CE5CD1B1E75ABF0009D0A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE5CD1C1E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5CD1D1E75ABF0009D0A19 /* Debug */,
+				2CE5CD1E1E75ABF0009D0A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE5CD1F1E75ABF0009D0A19 /* Build configuration list for PBXNativeTarget "ProgressBarFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE5CD201E75ABF0009D0A19 /* Debug */,
+				2CE5CD211E75ABF0009D0A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE5CCE91E75ABF0009D0A19 /* Project object */;
+}
